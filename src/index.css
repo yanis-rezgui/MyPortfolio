@@ -1,0 +1,232 @@
+@import "tailwindcss";
+
+/* --------------------------------------------------
+   DESIGN TOKENS
+   Clair : papier bleuté, encre marine, accent cobalt
+   Sombre : marine profond, accent bleu ciel
+-------------------------------------------------- */
+
+:root,
+[data-theme="light"] {
+  color-scheme: light;
+
+  --bg: #f6f8fc;
+  --surface: #ffffff;
+  --surface-2: #edf1f8;
+  --border: #dce3ef;
+
+  --fg: #101828;
+  --muted: #566380;
+
+  --accent: #2f55e0;
+  --accent-fg: #ffffff;
+
+  --grid: rgba(16, 24, 40, 0.07);
+}
+
+[data-theme="dark"] {
+  color-scheme: dark;
+
+  --bg: #0b1020;
+  --surface: #111830;
+  --surface-2: #18213d;
+  --border: #232f52;
+
+  --fg: #e8edf8;
+  --muted: #93a0bf;
+
+  --accent: #7c9bff;
+  --accent-fg: #0b1020;
+
+  --grid: rgba(148, 163, 200, 0.08);
+}
+
+/* Expose les tokens à Tailwind : bg-bg, bg-surface, text-fg, text-muted,
+   border-line, bg-accent, text-accent-fg, font-display... */
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-line: var(--border);
+  --color-fg: var(--fg);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-accent-fg: var(--accent-fg);
+
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+  --font-display: "Playfair Display", serif;
+}
+
+/* --------------------------------------------------
+   BASE
+-------------------------------------------------- */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem; /* compense le header fixe */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background-color: var(--bg);
+  color: var(--fg);
+  transition: background-color 0.25s ease, color 0.25s ease;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+}
+
+/* Fond à petits carreaux : une couche fixe, estompée vers le bas */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-image:
+    linear-gradient(to right, var(--grid) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--grid) 1px, transparent 1px);
+  background-size: 32px 32px;
+  background-position: center top;
+  -webkit-mask-image: radial-gradient(
+    ellipse 90% 75% at 50% 0%,
+    #000 35%,
+    transparent 100%
+  );
+  mask-image: radial-gradient(
+    ellipse 90% 75% at 50% 0%,
+    #000 35%,
+    transparent 100%
+  );
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--accent-fg);
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  body {
+    transition: none;
+  }
+}
+
+/* --------------------------------------------------
+   HERO : animations de chargement
+-------------------------------------------------- */
+
+@keyframes hero-rise {
+  from { opacity: 0; transform: translateY(18px); }
+  to   { opacity: 1; transform: none; }
+}
+
+@keyframes hero-line {
+  from { transform: translateY(110%); }
+  to   { transform: none; }
+}
+
+@keyframes hero-clip {
+  from { clip-path: inset(100% 0 0 0); }
+  to   { clip-path: inset(0 0 0 0); }
+}
+
+@keyframes hero-fade {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes hero-scan {
+  0%   { top: 0; opacity: 0; }
+  12%  { opacity: 1; }
+  100% { top: 100%; opacity: 0; }
+}
+
+@keyframes hero-wheel {
+  0%   { transform: translateY(0); opacity: 0; }
+  25%  { opacity: 1; }
+  80%  { transform: translateY(12px); opacity: 0; }
+  100% { transform: translateY(12px); opacity: 0; }
+}
+
+.hero-reveal {
+  opacity: 0;
+  animation: hero-rise 0.8s cubic-bezier(0.2, 0.7, 0.2, 1) forwards;
+  animation-delay: var(--d, 0ms);
+}
+
+.hero-line {
+  overflow: hidden;
+  padding-bottom: 0.14em;
+  margin-bottom: -0.14em;
+}
+
+.hero-line-inner {
+  transform: translateY(110%);
+  animation: hero-line 0.95s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+  animation-delay: var(--d, 0ms);
+}
+
+.hero-clip {
+  clip-path: inset(100% 0 0 0);
+  animation: hero-clip 1.1s cubic-bezier(0.7, 0, 0.2, 1) forwards;
+  animation-delay: var(--d, 0ms);
+}
+
+.hero-fade {
+  opacity: 0;
+  animation: hero-fade 0.9s ease-out forwards;
+  animation-delay: var(--d, 0ms);
+}
+
+.hero-scan {
+  top: 0;
+  opacity: 0;
+  animation: hero-scan 1.6s ease-in-out forwards;
+  animation-delay: var(--d, 0ms);
+}
+
+.hero-wheel {
+  animation: hero-wheel 1.8s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-reveal,
+  .hero-line-inner,
+  .hero-clip,
+  .hero-fade {
+    animation: none;
+    opacity: 1;
+    transform: none;
+    clip-path: none;
+  }
+
+  .hero-scan,
+  .hero-wheel {
+    animation: none;
+    opacity: 0;
+  }
+}

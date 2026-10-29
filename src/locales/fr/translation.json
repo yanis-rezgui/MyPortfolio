@@ -1,0 +1,98 @@
+{
+  "header": {
+    "about": "À propos",
+    "work": "Projets",
+    "services": "Services",
+    "process": "Processus",
+    "skills": "Compétences",
+    "contact": "Me contacter",
+    "home": "Retour en haut",
+    "navLabel": "Navigation principale",
+    "language": "Langue",
+    "switchToLight": "Passer en mode clair",
+    "switchToDark": "Passer en mode sombre",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu"
+  },
+  "hero": {
+    "intro": "Je suis {{name}}",
+    "hireMe": "Me recruter",
+    "viewWork": "Voir mes projets",
+    "available": "Disponible pour {{list}}",
+    "unavailable": "Indisponible pour le moment",
+    "availability": {
+      "freelance": "des missions freelance",
+      "internship": "des stages",
+      "fullTime": "des postes à temps plein"
+    },
+    "photoAlt": "Portrait de {{name}}",
+    "localTime": "Heure locale",
+    "statsLabel": "Chiffres clés",
+    "scroll": "Défiler",
+    "scrollLabel": "Aller à la section suivante"
+    
+  } ,
+  "projects": {
+  "title": "Projets sélectionnés",
+  "subtitle": "Des produits que j'ai conçus et développés, des applications web aux expériences d'IA.",
+  "all": "Tous",
+  "filtersLabel": "Filtrer les projets par catégorie",
+  "featured": "À la une",
+  "viewProject": "Voir le projet"
+},
+"about": {
+  "title": "À propos de moi",
+  "badge": "Développeur full-stack",
+  "photoAlt": "Photo de {{name}}",
+  "locationLabel": "Basé à",
+  "studyLabel": "Études",
+  "studyValue": "Licence informatique, 3e année, Université d'Alger 1",
+  "languagesLabel": "Langues",
+  "downloadCv": "Télécharger mon CV",
+  "contact": "Discutons"
+},
+"experience": {
+  "title": "Expérience",
+  "subtitle": "Où j'ai travaillé, ce que j'ai construit et ce que j'ai appris en chemin.",
+  "present": "Aujourd'hui",
+  "current": "En cours",
+  "technologies": "Technologies",
+  "showDetails": "Missions principales ({{count}})",
+  "hideDetails": "Masquer les missions",
+  "years_one": "{{count}} an",
+  "years_other": "{{count}} ans",
+  "months_one": "{{count}} mois",
+  "months_other": "{{count}} mois",
+  "types": {
+    "freelance": "Freelance",
+    "internship": "Stage",
+    "employment": "Emploi",
+    "collaboration": "Collaboration"
+  },
+  "workModes": {
+    "onsite": "Sur site",
+    "remote": "À distance",
+    "hybrid": "Hybride"
+  }
+},
+"services": {
+  "title": "Ce que je peux créer pour vous",
+  "subtitle": "D'un simple site vitrine à une plateforme SaaS complète, voici comment je peux donner vie à votre projet.",
+  "listLabel": "Choisir un service",
+  "includes": "Ce qui est inclus",
+  "technologies": "Technologies",
+  "cta": "Discutons de votre projet",
+  "unavailable": "Indisponible pour le moment"
+},
+"process": {
+  "title": "Ma façon de travailler",
+  "subtitle": "Une méthode claire, étape par étape, pour mener votre projet de la première idée jusqu'à un produit en ligne.",
+  "listLabel": "Étapes du développement",
+  "stepOf": "Étape {{current}} sur {{total}}",
+  "activities": "Ce que je fais",
+  "deliverables": "Ce que vous recevez",
+  "previous": "Précédent",
+  "next": "Étape suivante",
+  "cta": "Lancer mon projet"
+}
+}

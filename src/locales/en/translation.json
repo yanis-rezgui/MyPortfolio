@@ -1,0 +1,97 @@
+{
+  "header": {
+    "about": "About",
+    "work": "Work",
+    "services": "Services",
+    "process": "Process",
+    "skills": "Skills",
+    "contact": "Contact me",
+    "home": "Back to top",
+    "navLabel": "Main navigation",
+    "language": "Language",
+    "switchToLight": "Switch to light mode",
+    "switchToDark": "Switch to dark mode",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "hero": {
+    "intro": "I'm {{name}}",
+    "hireMe": "Hire me",
+    "viewWork": "View my work",
+    "available": "Available for {{list}}",
+    "unavailable": "Not available right now",
+    "availability": {
+      "freelance": "freelance projects",
+      "internship": "internships",
+      "fullTime": "full-time roles"
+    },
+    "photoAlt": "Portrait of {{name}}",
+    "localTime": "Local time",
+    "statsLabel": "Key figures",
+    "scroll": "Scroll",
+    "scrollLabel": "Scroll to the next section"
+  },
+  "projects": {
+  "title": "Selected work",
+  "subtitle": "Products I've designed and built, from web apps to AI experiments.",
+  "all": "All",
+  "filtersLabel": "Filter projects by category",
+  "featured": "Featured",
+  "viewProject": "View project"
+},
+"about": {
+  "title": "About me",
+  "badge": "Full-stack developer",
+  "photoAlt": "Photo of {{name}}",
+  "locationLabel": "Based in",
+  "studyLabel": "Studying",
+  "studyValue": "Computer Science, 3rd year, Université d'Alger 1",
+  "languagesLabel": "Languages",
+  "downloadCv": "Download my CV",
+  "contact": "Let's talk"
+},
+"experience": {
+  "title": "Experience",
+  "subtitle": "Where I've worked, what I've built, and what I've learned along the way.",
+  "present": "Present",
+  "current": "Current",
+  "technologies": "Technologies",
+  "showDetails": "Key responsibilities ({{count}})",
+  "hideDetails": "Hide responsibilities",
+  "years_one": "{{count}} yr",
+  "years_other": "{{count}} yrs",
+  "months_one": "{{count}} mo",
+  "months_other": "{{count}} mos",
+  "types": {
+    "freelance": "Freelance",
+    "internship": "Internship",
+    "employment": "Employment",
+    "collaboration": "Collaboration"
+  },
+  "workModes": {
+    "onsite": "On-site",
+    "remote": "Remote",
+    "hybrid": "Hybrid"
+  }
+},
+"services": {
+  "title": "What I can build for you",
+  "subtitle": "From a simple business website to a full SaaS platform, here is how I can help bring your project to life.",
+  "listLabel": "Choose a service",
+  "includes": "What's included",
+  "technologies": "Technologies",
+  "cta": "Discuss your project",
+  "unavailable": "Not available right now"
+},
+"process": {
+  "title": "How I work",
+  "subtitle": "A clear, step-by-step approach to take your project from the first idea to a live product.",
+  "listLabel": "Development steps",
+  "stepOf": "Step {{current}} of {{total}}",
+  "activities": "What I do",
+  "deliverables": "What you get",
+  "previous": "Previous",
+  "next": "Next step",
+  "cta": "Start your project"
+}
+}
