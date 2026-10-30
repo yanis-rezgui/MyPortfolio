@@ -94,5 +94,116 @@
   "previous": "Précédent",
   "next": "Étape suivante",
   "cta": "Lancer mon projet"
+},
+"education": {
+  "title": "Formation",
+  "subtitle": "Mon parcours académique et les certifications qui ont façonné mes compétences.",
+  "certifications": "Certifications",
+  "current": "En cours",
+  "present": "Aujourd'hui",
+  "credential": "Voir le certificat",
+  "preview": "Aperçu",
+  "close": "Fermer",
+  "types": {
+    "university": "Université",
+    "certification": "Certification",
+    "course": "Cours",
+    "bootcamp": "Bootcamp"
+  }
+},
+"skills": {
+  "eyebrow": "Ma Stack Technique",
+  "title": "Les technologies derrière mes projets",
+  "subtitle": "Une sélection de technologies, frameworks et outils que j'utilise pour concevoir des applications évolutives et transformer des idées en produits numériques fiables.",
+  "consoleTitle": "portfolio — ~/stack",
+  "categoriesLabel": "Catégories de la stack",
+  "featuredOnly": "Essentiels uniquement",
+  "legend": "Technologie principale",
+  "count": "{{count}} technologies",
+  "categories": {
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "database": "Bases de données",
+    "devops": "DevOps & Déploiement",
+    "tools": "Outils & Workflow",
+    "ai-ml": "IA & Machine Learning"
+  }
+},
+"contact": {
+  "eyebrow": "Contact",
+  "title": "Construisons quelque chose de grand ensemble",
+  "subtitle": "Un projet, une idée ou une opportunité en tête ? Contactez-moi via le canal de votre choix ou envoyez-moi un message avec le formulaire.",
+  "responseTime": "Je réponds sous 24 h maximum",
+  "availableFor": "Ouvert à :",
+  "availability": {
+    "freelance": "Freelance",
+    "internship": "Stage",
+    "fullTime": "Temps plein"
+  },
+  "whatsapp": {
+    "hint": "Ouvrir une conversation WhatsApp",
+    "message": "Bonjour Yanis, je vous ai trouvé via votre portfolio et j'aimerais discuter d'un projet."
+  },
+  "email": {
+    "title": "E-mail",
+    "hint": "M'écrire directement sur Gmail",
+    "subject": "Demande de projet depuis votre portfolio"
+  },
+  "linkedin": {
+    "value": "Hire me on LinkedIn",
+    "hint": "M'envoyer un message sur LinkedIn"
+  },
+  "instagram": {
+    "badge": "Créateur de contenu",
+    "description": "Je crée du contenu éducatif sur l'informatique, le développement et l'architecture logicielle sur Instagram.",
+    "cta": "Me suivre sur Instagram"
+  },
+  "form": {
+    "title": "Envoyez-moi un message",
+    "subtitle": "Remplissez le formulaire et je vous réponds sous 24 h.",
+    "name": "Nom complet",
+    "namePlaceholder": "Jean Dupont",
+    "email": "Adresse e-mail",
+    "emailPlaceholder": "jean@entreprise.com",
+    "phone": "Téléphone",
+    "optional": "facultatif",
+    "subject": "Sujet",
+    "subjectPlaceholder": "Choisissez un sujet",
+    "subjects": {
+      "project": "Nouveau projet web",
+      "freelance": "Mission freelance",
+      "internship": "Opportunité de stage",
+      "collaboration": "Collaboration",
+      "other": "Autre"
+    },
+    "message": "Message",
+    "messagePlaceholder": "Parlez-moi de votre projet, de vos objectifs et de votre calendrier...",
+    "send": "Envoyer le message",
+    "sending": "Envoi en cours...",
+    "successTitle": "Message envoyé avec succès !",
+    "successText": "Merci de m'avoir contacté. Je vous réponds sous 24 h maximum.",
+    "errorTitle": "Une erreur est survenue",
+    "errorText": "Votre message n'a pas pu être envoyé. Réessayez ou écrivez-moi directement à {{email}}.",
+    "privacy": "Vos informations servent uniquement à répondre à votre message et ne sont jamais partagées avec des tiers."
+  }
+},
+"testimonials": {
+  "eyebrow": "Témoignages",
+  "title": "Ce qu'ils disent de mon travail",
+  "subtitle": "Les retours des responsables et des professeurs avec qui j'ai travaillé, sur des projets réels comme en cours.",
+  "filtersLabel": "Filtrer les témoignages",
+  "filters": {
+    "all": "Tous",
+    "supervisor": "Professionnel",
+    "professor": "Académique"
+  },
+  "relationship": {
+    "supervisor": "Professionnel",
+    "professor": "Académique"
+  },
+  "cta": {
+    "text": "Un projet en tête ? Construisons quelque chose de solide ensemble.",
+    "button": "Me contacter"
+  }
 }
 }

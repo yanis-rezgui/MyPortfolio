@@ -93,5 +93,118 @@
   "previous": "Previous",
   "next": "Next step",
   "cta": "Start your project"
+},
+"education": {
+  "title": "Education",
+  "subtitle": "My academic background and the certifications that shaped my skills.",
+  "certifications": "Certifications",
+  "current": "In progress",
+  "present": "Present",
+  "credential": "View certificate",
+  "preview": "Preview",
+  "close": "Close",
+  "types": {
+    "university": "University",
+    "certification": "Certification",
+    "course": "Course",
+    "bootcamp": "Bootcamp"
+  }
+},
+"skills": {
+
+  "eyebrow": "My Tech Stack",
+  "title": "The Technologies Behind My Work",
+  "subtitle": "A curated collection of technologies, frameworks, and tools I use to build scalable applications and turn ideas into reliable digital products.",
+
+  "consoleTitle": "portfolio — ~/stack",
+  "categoriesLabel": "Stack categories",
+  "featuredOnly": "Core only",
+  "legend": "Core technology",
+  "count": "{{count}} technologies",
+  "categories": {
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "database": "Databases",
+    "devops": "DevOps & Deployment",
+    "tools": "Tools & Workflow",
+    "ai-ml": "AI & Machine Learning"
+  }
+},
+"contact": {
+  "eyebrow": "Contact",
+  "title": "Let's build something great together",
+  "subtitle": "Have a project, an idea or an opportunity in mind? Reach out through the channel you prefer, or send me a message using the form.",
+  "responseTime": "I reply within 24 hours at most",
+  "availableFor": "Open to:",
+  "availability": {
+    "freelance": "Freelance",
+    "internship": "Internship",
+    "fullTime": "Full-time"
+  },
+  "whatsapp": {
+    "hint": "Open a WhatsApp conversation",
+    "message": "Hello Yanis, I found you through your portfolio and I'd like to discuss a project."
+  },
+  "email": {
+    "title": "Email",
+    "hint": "Write to me directly in Gmail",
+    "subject": "Project inquiry from your portfolio"
+  },
+  "linkedin": {
+    "value": "Hire me on LinkedIn",
+    "hint": "Send me a message on LinkedIn"
+  },
+  "instagram": {
+    "badge": "Content creator",
+    "description": "I create educational content about computer science, software development and software architecture on Instagram.",
+    "cta": "Follow me on Instagram"
+  },
+  "form": {
+    "title": "Send me a message",
+    "subtitle": "Fill in the form and I'll get back to you within 24 hours.",
+    "name": "Full name",
+    "namePlaceholder": "John Doe",
+    "email": "Email address",
+    "emailPlaceholder": "john@company.com",
+    "phone": "Phone",
+    "optional": "optional",
+    "subject": "Subject",
+    "subjectPlaceholder": "Select a subject",
+    "subjects": {
+      "project": "New web project",
+      "freelance": "Freelance mission",
+      "internship": "Internship opportunity",
+      "collaboration": "Collaboration",
+      "other": "Other"
+    },
+    "message": "Message",
+    "messagePlaceholder": "Tell me about your project, your goals and your timeline...",
+    "send": "Send message",
+    "sending": "Sending...",
+    "successTitle": "Message sent successfully!",
+    "successText": "Thank you for reaching out. I'll reply within 24 hours at most.",
+    "errorTitle": "Something went wrong",
+    "errorText": "Your message could not be sent. Please try again or email me directly at {{email}}.",
+    "privacy": "Your information is only used to reply to your message and is never shared with third parties."
+  }
+},
+"testimonials": {
+  "eyebrow": "Testimonials",
+  "title": "What People Say About My Work",
+  "subtitle": "Feedback from the managers and professors I've worked with, on real projects and in the classroom.",
+  "filtersLabel": "Filter testimonials",
+  "filters": {
+    "all": "All",
+    "supervisor": "Professional",
+    "professor": "Academic"
+  },
+  "relationship": {
+    "supervisor": "Professional",
+    "professor": "Academic"
+  },
+  "cta": {
+    "text": "Have a project in mind? Let's build something great together.",
+    "button": "Get in touch"
+  }
 }
 }

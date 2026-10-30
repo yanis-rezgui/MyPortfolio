@@ -34,6 +34,7 @@ stats: {
 export interface Contact {
   phone: string;
   email: string;
+  whatsappNumber : string;
   socials: {
     name: string;
     link: string;

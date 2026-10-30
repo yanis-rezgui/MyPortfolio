@@ -22,7 +22,7 @@ export const profile: Profile = {
 
   location: "Algiers, Algeria",
 
-  avatar: "/images/profile/avatar.webp",
+  avatar: "https://res.cloudinary.com/dub4fhabm/image/upload/v1793392573/MaPhoto2_hh5yhd.png",
 
   // Add the URL to your CV when it is ready.
   // Example: "/documents/yanis-rezgui-cv.pdf"
@@ -127,7 +127,7 @@ export const profile: Profile = {
 export const contact: Contact = {
   phone: "+213 553533167",
   email: "yanisrezgui28@gmail.com",
-
+  whatsappNumber : "213553533167",
   socials: [
     {
       name: "LinkedIn",
@@ -136,6 +136,10 @@ export const contact: Contact = {
     {
       name: "GitHub",
       link: "https://github.com/yanis-rezgui", // Add your GitHub profile URL
+    },
+    {
+      name : "Instagram",
+      link : "https://www.instagram.com/itsyanis.ts/"
     },
   ],
 };
