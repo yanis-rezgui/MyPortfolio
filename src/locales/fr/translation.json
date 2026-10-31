@@ -12,7 +12,8 @@
     "switchToLight": "Passer en mode clair",
     "switchToDark": "Passer en mode sombre",
     "openMenu": "Ouvrir le menu",
-    "closeMenu": "Fermer le menu"
+    "closeMenu": "Fermer le menu",
+    "experience" : "Experience"
   },
   "hero": {
     "intro": "Je suis {{name}}",
@@ -205,5 +206,13 @@
     "text": "Un projet en tête ? Construisons quelque chose de solide ensemble.",
     "button": "Me contacter"
   }
+},
+"footer": {
+  "tagline": "Développeur full-stack qui conçoit des produits web fiables, de la première idée à la mise en ligne.",
+  "navigation": "Navigation",
+  "connect": "Restons en contact",
+  "rights": "Tous droits réservés.",
+  "builtWith": "Conçu et développé avec React, TypeScript et Tailwind CSS",
+  "backToTop": "Retour en haut"
 }
 }

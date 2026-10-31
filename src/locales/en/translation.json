@@ -12,7 +12,8 @@
     "switchToLight": "Switch to light mode",
     "switchToDark": "Switch to dark mode",
     "openMenu": "Open menu",
-    "closeMenu": "Close menu"
+    "closeMenu": "Close menu",
+    "experience" : "Experience"
   },
   "hero": {
     "intro": "I'm {{name}}",
@@ -206,5 +207,13 @@
     "text": "Have a project in mind? Let's build something great together.",
     "button": "Get in touch"
   }
+},
+"footer": {
+  "tagline": "Full-stack developer building reliable web products, from the first idea to a live launch.",
+  "navigation": "Navigation",
+  "connect": "Let's connect",
+  "rights": "All rights reserved.",
+  "builtWith": "Designed & built with React, TypeScript and Tailwind CSS",
+  "backToTop": "Back to top"
 }
 }

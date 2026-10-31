@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import { useTheme } from "../../Contexts/ThemeContext";
 import type { Language } from "../../Types/Common";
 
-const NAV_LINKS = ["work", "about", "services", "process", "skills"] as const;
+const NAV_LINKS = ["work", "about", "experience", "services", "process", "skills"] as const;
 const LANGUAGES: Language[] = ["fr", "en"];
 
 const iconProps = {
@@ -121,7 +121,7 @@ const Header = () => {
             <span className="font-display flex h-10 w-10 items-center justify-center rounded-xl border border-line bg-surface text-base font-bold text-accent">
               YR
             </span>
-            <span className="text-lg font-extrabold tracking-tight sm:text-xl">
+            <span className="text-sm sm:text-lg font-extrabold tracking-tight lg:text-xl">
               Yanis Rezgui
             </span>
           </a>

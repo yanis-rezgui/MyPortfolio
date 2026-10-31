@@ -9,6 +9,7 @@ import Education from "../Components/HomeComponents/Education";
 import Skills from "../Components/HomeComponents/Skills";
 import Contact from "../Components/HomeComponents/Contact";
 import Testimonials from "../Components/HomeComponents/Testimonials";
+import Footer from "../Components/HomeComponents/Footer";
 
 
 const Home = () => {
@@ -25,6 +26,7 @@ const Home = () => {
            <Skills/>
            <Testimonials/>
            <Contact/>
+           <Footer/>
         </main>
     )
 }

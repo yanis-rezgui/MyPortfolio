@@ -51,25 +51,57 @@ const ArrowIcon = () => (
 
 const Cover = ({ project, className }: { project: Project; className: string }) => {
   const [failed, setFailed] = useState(false);
+
   return (
-    <div className={`relative overflow-hidden bg-surface-2 p-2.5 sm:p-4 ${className}`}>
-      {failed ? (
-        <div className="font-display flex h-full w-full items-center justify-center text-5xl font-bold text-accent/50 sm:text-6xl">
-          {project.title.en.slice(0, 2)}
+    <div className={`relative overflow-hidden bg-surface-2 ${className}`}>
+      {/* Halo d'accent derrière l'écran */}
+      <span
+        aria-hidden
+        className="pointer-events-none absolute -top-12 left-1/2 h-40 w-2/3 -translate-x-1/2 rounded-full bg-accent/15 blur-3xl"
+      />
+
+      {/* Écran fictif */}
+      <div className="absolute inset-3 flex flex-col overflow-hidden rounded-xl border border-line bg-bg shadow-xl shadow-black/10 transition-transform duration-500 ease-out group-hover:-translate-y-1 motion-reduce:transition-none sm:inset-5">
+        {/* Barre du navigateur */}
+        <div className="flex h-7 shrink-0 items-center gap-2 border-b border-line bg-surface px-3 sm:h-8">
+          <span aria-hidden className="flex gap-1.5">
+            <span className="h-2 w-2 rounded-full bg-red-500/80" />
+            <span className="h-2 w-2 rounded-full bg-amber-500/80" />
+            <span className="h-2 w-2 rounded-full bg-emerald-500/80" />
+          </span>
+
+          {/* Fausse barre d'adresse */}
+          <span
+            aria-hidden
+            className="mx-auto flex h-4 w-full max-w-[60%] items-center justify-center truncate rounded-md bg-surface-2 px-2 text-[0.6rem] font-medium text-muted sm:h-5"
+          >
+            {project.slug.en}
+          </span>
+
+          {/* Équilibre la largeur des 3 pastilles pour centrer l'adresse */}
+          <span aria-hidden className="w-9 shrink-0" />
         </div>
-      ) : (
-        <img
-          src={project.coverImage}
-          alt=""
-          loading="lazy"
-          onError={() => setFailed(true)}
-          className="h-full w-full rounded-lg object-contain object-center transition-transform duration-700 ease-out group-hover:scale-[1.03] motion-reduce:transition-none"
-        />
-      )}
+
+        {/* Contenu de l'écran */}
+        <div className="relative min-h-0 flex-1 overflow-hidden bg-surface-2">
+          {failed ? (
+            <div className="font-display flex h-full w-full items-center justify-center text-5xl font-bold text-accent/50 sm:text-6xl">
+              {project.title.en.slice(0, 2)}
+            </div>
+          ) : (
+            <img
+              src={project.coverImage}
+              alt=""
+              loading="lazy"
+              onError={() => setFailed(true)}
+              className="h-full w-full origin-top object-cover object-top transition-transform duration-700 ease-out group-hover:scale-[1.03] motion-reduce:transition-none"
+            />
+          )}
+        </div>
+      </div>
     </div>
   );
 };
-
 const TechList = ({ items, max }: { items: string[]; max: number }) => (
   <ul className="flex flex-wrap gap-1.5">
     {items.slice(0, max).map((tech) => (
