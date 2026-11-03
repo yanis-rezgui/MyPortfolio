@@ -214,5 +214,69 @@
   "rights": "Tous droits réservés.",
   "builtWith": "Conçu et développé avec React, TypeScript et Tailwind CSS",
   "backToTop": "Retour en haut"
+},
+"projectDetail": {
+  "back": "Retour aux projets",
+  "visitSite": "Voir le site",
+  "viewCode": "Voir le code",
+  "notFound": {
+    "title": "Projet introuvable",
+    "text": "Ce projet n'existe pas ou n'est plus disponible.",
+    "back": "Retour à l'accueil"
+  },
+  "status": {
+    "online": "En ligne",
+    "in-progress": "En cours",
+    "completed": "Terminé",
+    "offline": "Hors ligne"
+  },
+  "info": {
+    "client": "Client",
+    "industry": "Secteur",
+    "projectType": "Type de projet",
+    "role": "Mon rôle",
+    "service": "Service",
+    "completionDate": "Livraison",
+    "status": "Statut"
+  },
+  "overview": { "eyebrow": "Présentation", "title": "À propos du projet" },
+  "caseStudy": {
+    "eyebrow": "Étude de cas",
+    "title": "Du problème à la solution",
+    "problem": "Le défi",
+    "solution": "La solution",
+    "results": "Résultats"
+  },
+  "work": {
+    "eyebrow": "Réalisation",
+    "title": "Ce que j'ai construit",
+    "contributions": "Mes contributions",
+    "features": "Fonctionnalités clés"
+  },
+  "gallery": {
+    "eyebrow": "Galerie",
+    "title": "Aperçu du projet",
+    "image": "Image",
+    "open": "Agrandir",
+    "close": "Fermer",
+    "prev": "Image précédente",
+    "next": "Image suivante"
+  },
+  "testimonial": { "eyebrow": "Témoignage" },
+  "tech": {
+    "eyebrow": "Technique",
+    "title": "Stack technique",
+    "default": "Technologies"
+  },
+  "cta": {
+    "eyebrow": "Un projet en tête ?",
+    "title": "Construisons le vôtre.",
+    "text": "Vous cherchez un projet de type « {{type}} » ou quelque chose de similaire ? Parlons de vos objectifs et voyons comment le concrétiser.",
+    "primary": "Discuter de mon projet",
+    "secondary": "Envoyer un email",
+    "points": ["Échange gratuit et sans engagement", "Devis clair et détaillé", "Réponse rapide"],
+    "emailSubject": "Projet similaire : {{type}}"
+  },
+  "nav": { "prev": "Projet précédent", "next": "Projet suivant" }
 }
 }

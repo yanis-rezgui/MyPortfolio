@@ -215,5 +215,69 @@
   "rights": "All rights reserved.",
   "builtWith": "Designed & built with React, TypeScript and Tailwind CSS",
   "backToTop": "Back to top"
+},
+"projectDetail": {
+  "back": "Back to projects",
+  "visitSite": "Visit website",
+  "viewCode": "View code",
+  "notFound": {
+    "title": "Project not found",
+    "text": "This project doesn't exist or is no longer available.",
+    "back": "Back to home"
+  },
+  "status": {
+    "online": "Online",
+    "in-progress": "In progress",
+    "completed": "Completed",
+    "offline": "Offline"
+  },
+  "info": {
+    "client": "Client",
+    "industry": "Industry",
+    "projectType": "Project type",
+    "role": "My role",
+    "service": "Service",
+    "completionDate": "Delivered",
+    "status": "Status"
+  },
+  "overview": { "eyebrow": "Overview", "title": "About the project" },
+  "caseStudy": {
+    "eyebrow": "Case study",
+    "title": "From problem to solution",
+    "problem": "The challenge",
+    "solution": "The solution",
+    "results": "Results"
+  },
+  "work": {
+    "eyebrow": "Delivery",
+    "title": "What I built",
+    "contributions": "My contributions",
+    "features": "Key features"
+  },
+  "gallery": {
+    "eyebrow": "Gallery",
+    "title": "Project preview",
+    "image": "Image",
+    "open": "Enlarge",
+    "close": "Close",
+    "prev": "Previous image",
+    "next": "Next image"
+  },
+  "testimonial": { "eyebrow": "Testimonial" },
+  "tech": {
+    "eyebrow": "Technical",
+    "title": "Tech stack",
+    "default": "Technologies"
+  },
+  "cta": {
+    "eyebrow": "Got a project in mind?",
+    "title": "Let's build yours.",
+    "text": "Looking for a \"{{type}}\" project or something similar? Let's talk about your goals and how to make it happen.",
+    "primary": "Discuss my project",
+    "secondary": "Send an email",
+    "points": ["Free, no-commitment chat", "Clear, detailed quote", "Fast reply"],
+    "emailSubject": "Similar project: {{type}}"
+  },
+  "nav": { "prev": "Previous project", "next": "Next project" }
 }
 }
