@@ -25,6 +25,7 @@ export interface Education {
 
   description?: LocalizedText;
   achievements: LocalizedText[];
+  certificationImage? : string;
   credentialUrl?: string;
 
   featured: boolean;
